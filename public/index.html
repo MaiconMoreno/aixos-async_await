@@ -4,10 +4,54 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+
+    <style>
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+
+        li {
+            clear: both;
+            margin-top: 20px;
+        }
+
+        img {
+            width: 80px;
+            float: left;
+            margin-right: 10px;
+        }
+
+        strong {
+            font-size: 20px;
+        }
+
+        p {
+            margin: 5px 0;
+        }
+    </style>
 </head>
 
 <body>
-    <script src="./bundle.js"></script>
+    <form id="form-repositorio">
+        <p>Buscando diretórios. Exemplo: octocat/Hello-World ou DIYgod/RSSHub</p>
+        <input type="text" name="repositorio">
+        <button type="submit">Adicionar</button>
+    </form>
+
+    <ul id="lista-repositorio">
+
+
+    </ul>
+
+
+
+
+
+
+    <script src="bundle.js"></script>
 </body>
 
 </html>
